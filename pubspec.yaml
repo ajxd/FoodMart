@@ -1,0 +1,34 @@
+name: foodmart
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.0.15
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.0.0
+  video_player: ^2.2.14
+  lottie: ^1.2.1
+  share_plus: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/ # Ensure this path matches your assets directory
+
+# Add any custom fonts here
+# fonts:
+#   - family: [Your Font Family]
+#     fonts:
+#       - asset: fonts/[Your Font File]
